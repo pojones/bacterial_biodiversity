@@ -54,12 +54,12 @@ function buildCharts(sample) {
       type: "bar",
       orientation: "h",
     }]; 
-    var barLayout = [{
+    var barLayout = {
       title: "Top 10 Bacteria Cultures Found",
       autosize: false,
       width: 500,
       height: 500,
-    }]; 
+    }; 
 
     var bubbleData = [{
       x: otu_ids,
@@ -71,12 +71,12 @@ function buildCharts(sample) {
           size: sample_values,
         }
       }];
-    var bubbleLayout = [{
+    var bubbleLayout = {
       title: "Bacteria Cultures Per Sample",
       automargin: true,
       xaxis: {title: "OTU ID"},
       hovermode: "closest",
-    }];
+    };
 
     Plotly.newPlot('bar', barData, barLayout);
     Plotly.newPlot('bubble', bubbleData, bubbleLayout);
@@ -102,9 +102,9 @@ function buildCharts(sample) {
         ]
       }
     }];
-    var gaugeLayout = [{
+    var gaugeLayout = {
       title: "Wash Frequency"
-    }];
+    };
     Plotly.newPlot('gauge', gaugeData, gaugeLayout);
   });
 }
