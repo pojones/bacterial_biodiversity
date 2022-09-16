@@ -4,8 +4,10 @@ A friend, let’s call her Roza, is a biological researcher in a prominent micro
 Roza wants to build dashboard that participants and fellow researchers can access. This interface would have a completed panel for demographic information as well as some visualization tools to display the bacteria colony data. This project will use the following to construct the site: D3 library, JavaScript, and HTML.
 ## Dashboard
 Upon opening, the page defaults to information for subject #940:
+<br/><br/>
 ![](https://github.com/pojones/bacterial_biodiversity/blob/3a11dd7547064b60b76665895c5e001c8e4ded2f/images/dashboardPhoto.png)
 <br/>
 The drop-down menu can be edited to select any of the other subjects numbers:
+<br/><br/>
 ![](https://github.com/pojones/bacterial_biodiversity/blob/3a11dd7547064b60b76665895c5e001c8e4ded2f/images/dashboardPhoto2.png)
 <br/>
